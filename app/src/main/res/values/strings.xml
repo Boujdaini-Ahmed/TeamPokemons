@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Team Pokemon</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="StartID">Start</string>
+    <string name="homeID">Home</string>
+    <string name="PokédexID">Pokédex</string>
+    <string name="AboutID">About</string>
+    <string name="navigationID">Navigation</string>
+    <string name="aboutID">The Pokemon Company International, a subsidiary of The Pokemon Company in Japan, manages the property outside of Asia and is responsible for brand management, licensing, marketing, the Pokemon Trading Card Game, the animated TV series, home entertainment, and the official Pokemon website. Pokemon was launched in Japan in 1996 and today is one of the most popular childrens entertainment properties in the world.</string>
+    <string name="aboutTextId">About the Pokémon Company International</string>
+    <string name="about">about</string>
+    <string name="lijstID">Lijst</string>
+    <string name="hasardLijst">Pokemon naar keuze</string>
+    <string name="categoryID">Category</string>
+    <string name="pokemonID">ID</string>
+    <string name="nameID">pokemon_name</string>
+    <string name="dashboard_2">Base Stats</string>
+    <string name="share">Share</string>
+</resources>

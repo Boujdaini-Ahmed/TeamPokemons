@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="pokemons"
+            type="be.brussel.boujdainiahmed.teampokemon.pokeList.Pokemon" />
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/background_pokemon4"
+        android:clickable="true"
+        android:clipToPadding="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+
+        <ImageView
+            android:id="@+id/pokemon_image"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="40dp"
+            android:adjustViewBounds="true"
+            android:padding="3dp"
+            android:scaleType="centerInside"
+            app:imageUrl="@{pokemons.imgScrUrl}"
+            tools:src="@tools:sample/backgrounds/scenic" />
+
+        <TextView
+            android:id="@+id/nameID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="10dp"
+            android:text="@{pokemons.name}"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/categoryID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="165dp"
+            android:layout_marginTop="40dp"
+            android:text="@{pokemons.category}"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pokemonID"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            android:text="@{pokemons.id}"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+</layout>
+
+   <!-- app:imageUrl="@{pokemons.imgSrcUrl}" -->
